@@ -1,0 +1,6 @@
+model:
+  tree_config:
+    use_positional_encoding: False
+train:
+  saved_path: "checkpoints/ablation"
+# 2048 - 16

@@ -1,0 +1,24 @@
+max_frame_num: 128
+model:
+  video_config:
+    input_dim: 1024
+  tree_config:
+    max_element_num: 128
+dataset:
+  name: "TACoS"
+  feature_path: "../data/vsl/TACoS/tacos_features_new"
+  vocab_path: "../data/glove_model.bin"
+  data_path_template: "../data/vsl/TACoS/{}_data.json"
+  max_frame_num: 128
+  frame_dim: 1024
+train:
+  saved_path: "checkpoints/tacos_vsl"
+  batch_size: 32
+test:
+  batch_size: 32
+#  args_list: [{"top_n": 1, "thresh": 0.5, "by_frame": False, "display_interval": 20}]
+optimizer:
+  lr: 1e-3
+  warmup_updates: 400
+  loss_config:
+    inside: 8

@@ -1,0 +1,11 @@
+optimizer:
+#  weight_decay: 1e-5
+  loss_config:
+    inside: 5
+model:
+  tree_config:
+    dropout: 0.4
+    graph_config:
+      dropout: 0.5
+
+# 2048 - 16

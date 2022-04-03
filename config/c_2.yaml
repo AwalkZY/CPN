@@ -1,0 +1,27 @@
+max_frame_num: 32
+model:
+  video_config:
+    input_dim: 4096
+  tree_config:
+    max_element_num: 32
+    graph_config:
+      layer_num: 2
+dataset:
+  name: "CharadesSTA"
+#  feature_path: "../data/Charades-STA/Charades-pca-500"
+#  feature_path: "../data/vsl/Charades/charades_features_raw"
+  feature_path: "../data/2dtan/Charades"
+  vocab_path: "../data/glove_model.bin"
+  data_path_template: "../data/LGI/data/annotations/{}.json"
+  frame_dim: 4096
+  max_frame_num: 32
+train:
+  saved_path: "checkpoints/charades_2dtan"
+  batch_size: 32
+test:
+  batch_size: 32
+optimizer:
+  lr: 8e-4
+  warmup_updates: 400
+  loss_config:
+    inside: 2

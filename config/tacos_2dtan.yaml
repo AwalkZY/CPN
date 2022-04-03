@@ -1,0 +1,23 @@
+max_frame_num: 64
+model:
+  video_config:
+    input_dim: 4096
+  tree_config:
+    max_element_num: 64
+dataset:
+  name: "TACoS"
+  feature_path: "../data/2dtan/TACoS"
+  vocab_path: "../data/glove_model.bin"
+  data_path_template: "../data/vsl/TACoS/{}_data.json"
+  max_frame_num: 64
+  frame_dim: 4096
+train:
+  saved_path: "checkpoints/tacos_2dtan"
+  batch_size: 32
+
+test:
+  batch_size: 32
+#  args_list: [{"top_n": 1, "thresh": 0.5, "by_frame": False, "display_interval": 20}]
+optimizer:
+  lr: 4e-4
+  warmup_updates: 400

@@ -1,0 +1,31 @@
+max_frame_num: 32
+model:
+  video_config:
+    input_dim: 1024
+  tree_config:
+#    dropout: 0.4
+    max_element_num: 32
+    graph_config:
+      layer_num: 2
+#      dropout: 0.5
+dataset:
+  name: "CharadesSTA"
+#  feature_path: "../data/Charades-STA/Charades-pca-500"
+  feature_path: "../data/vsl/Charades/charades_features_finetune"
+#  feature_path: "../data/LGI/data/features/i3d_finetuned"
+  vocab_path: "../data/glove_model.bin"
+  data_path_template: "../data/vsl/Charades/{}.json"
+#  data_path_template: "../data/LGI/data/annotations/{}.json"
+  frame_dim: 1024
+  max_frame_num: 32
+train:
+  saved_path: "checkpoints/charades_vsl"
+  batch_size: 32
+test:
+  batch_size: 32
+optimizer:
+  lr: 8e-4
+  warmup_updates: 400
+#  weight_decay: 5e-05
+#  loss_config:
+#    inside: 3

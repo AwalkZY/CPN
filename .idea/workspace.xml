@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94a6051b-36d7-4f4c-9863-cc5952237a76" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="27IHjTIc1w2HF1nOudFgxim7dnd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94a6051b-36d7-4f4c-9863-cc5952237a76" name="Default Changelist" comment="" />
+      <created>1649000814681</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649000814681</updated>
+      <workItem from="1649000830193" duration="2603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="362" y="72" key="#Deployment" timestamp="1649001859086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="72" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1649001859086" />
+    <state x="362" y="72" key="#Options" timestamp="1649001866462">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="72" key="#Options/0.0.1536.824@0.0.1536.824" timestamp="1649001866462" />
+    <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1649001097276">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1649001097276" />
+    <state x="604" y="64" key="ftp.server.browser" timestamp="1649001116673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="64" key="ftp.server.browser/0.0.1536.824@0.0.1536.824" timestamp="1649001116673" />
+  </component>
+</project>

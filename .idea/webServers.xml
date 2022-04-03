@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8564253e-8936-4671-8665-05f29d1ea323" name="yiwise-33" url="http://103.219.31.55">
+        <fileTransfer host="103.219.31.55" port="10033" privateKey="C:\Users\Desmond\.ssh\id_rsa" rootFolder="/home1/zhaoyang" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="10033" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
